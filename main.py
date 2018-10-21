@@ -55,19 +55,16 @@ for i in range(20, 0, -1):
     print(i)
 
 print('7. Print the even numbers counting backwards from 20.')
-for i in range(20, 0, -1):
-    if not i % 2:
-        print(i)
+for i in range(20, 0, -2):
+    print(i)
 
 print('8. Print the odd numbers from 20 to 1, counting backwards.')
-for i in range(20, 0, -1):
-    if i % 2:
-        print(i)
+for i in range(19, 0, -2):
+    print(i)
 
 print('9. Print the multiples of 5, counting down from 100.')
-for i in range(100, 0, -1):
-    if not i % 5:
-        print(i)
+for i in range(100, 0, -5):
+    print(i)
 
 print('10. Print the square numbers, counting down from 100.')
 
@@ -100,16 +97,16 @@ for i in range(0, len(sampleArray)):
     print(sampleArray[i] ** 2)
 
 print('15. Print the sum of all the numbers from 1 to 20.')
-sum15 = 0
+sum = 0
 for i in range(1, 21):
-    sum15 += i
-print(sum15)
+    sum += i
+print(sum)
 
 print('16. Print the sum of all the elements in sampleArray.')
-sum16 = 0
+array_sum = 0
 for i in range(0, len(sampleArray)):
-    sum16 += sampleArray[i]
-print(sum16)
+    array_sum += sampleArray[i]
+print(array_sum)
 
 print('17. Print the smallest element in sampleArray.')
 answer17 = sampleArray[0]
